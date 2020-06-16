@@ -1,11 +1,11 @@
 # Alan with Ember Quickstart
 * `npm install ember-auto-import --save` To allow npm modules to be used in Ember
 * `npm install @alan-ai/alan-sdk-web --save` To install alan button
-* `import alanBtn from "@alan-ai/alan-sdk-web";`
-* `alanBtn({
-    key: "YOUR-ALAN-KEY",
-    rootEl: document.getElementById("alan-btn"),
-});`
+* `import alanBtn from "@alan-ai/alan-sdk-web";` <br/>
+   `alanBtn({` <br/>
+    `  key: "YOUR-ALAN-KEY",` <br/>
+    `  rootEl: document.getElementById("alan-btn"),` <br/>
+`});` <br/>
 Add this to your app.js file.
 * `<div id="alan-btn"></div>` Adding this in your application.hbs file will add the Alan button
 
